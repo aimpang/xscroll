@@ -94,7 +94,7 @@ fun FeedScreen(
                 onClick = onRecordClick,
                 modifier = Modifier
                     .align(Alignment.TopStart)
-                    .padding(start = 16.dp, top = topPad + 12.dp),
+                    .padding(start = 21.dp, top = topPad + 17.dp),
             )
         }
         return
@@ -189,10 +189,10 @@ fun FeedScreen(
             onClick = onRecordClick,
             modifier = Modifier
                 .align(Alignment.TopStart)
-                .padding(start = 16.dp, top = topPad + 12.dp),
+                .padding(start = 21.dp, top = topPad + 17.dp),
         )
 
-        // Message button (bottom-right)
+        // Message button (bottom-center)
         // Derive locked state directly from secondsOnVideo to avoid async flicker
         MessageButton(
             tokenCount = danmakuState.tokenCount,
@@ -200,8 +200,8 @@ fun FeedScreen(
             secondsOnVideo = secondsOnVideo,
             onClick = { danmakuViewModel.showInput() },
             modifier = Modifier
-                .align(Alignment.BottomEnd)
-                .padding(end = 16.dp, bottom = botPad + 20.dp),
+                .align(Alignment.BottomCenter)
+                .padding(bottom = botPad + 20.dp),
         )
 
         // Danmaku text input

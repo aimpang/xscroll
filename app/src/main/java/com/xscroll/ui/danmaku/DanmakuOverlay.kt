@@ -18,6 +18,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Shadow
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
@@ -62,6 +63,7 @@ fun DanmakuOverlay(
                     screenWidthPx = screenWidthPx,
                     yOffsetPx = yOffsetPx,
                     loopCount = loopCount,
+                    index = index,
                 )
             }
         }
@@ -74,10 +76,16 @@ private fun DanmakuItem(
     screenWidthPx: Float,
     yOffsetPx: Float,
     loopCount: Int,
+    index: Int,
 ) {
     val xOffset = remember { Animatable(screenWidthPx) }
     // Random speed per item instance — stable across recompositions
     val scrollDurationMs = remember { (SCROLL_DURATION_MIN_MS..SCROLL_DURATION_MAX_MS).random() }
+    // Silly per-message personality — stable across recompositions
+    val fontSize = remember { (14..20).random().sp }
+    val rotation = remember { (-4f..4f).let { range -> range.start + (range.endInclusive - range.start) * Math.random().toFloat() } }
+    val yWobblePx = remember { (-12f..12f).let { range -> range.start + (range.endInclusive - range.start) * Math.random().toFloat() } }
+
     // rememberUpdatedState so the LaunchedEffect(Unit) always sees the latest loopCount
     val currentLoopCount = rememberUpdatedState(loopCount)
 
@@ -112,14 +120,16 @@ private fun DanmakuItem(
     }
 
     Box(
-        modifier = Modifier.offset {
-            IntOffset(xOffset.value.roundToInt(), yOffsetPx.roundToInt())
-        },
+        modifier = Modifier
+            .offset {
+                IntOffset(xOffset.value.roundToInt(), (yOffsetPx + yWobblePx).roundToInt())
+            }
+            .graphicsLayer { rotationZ = rotation },
     ) {
         Text(
             text = message.text,
             color = color,
-            fontSize = 15.sp,
+            fontSize = fontSize,
             fontWeight = FontWeight.Bold,
             maxLines = 1,
             overflow = TextOverflow.Visible,
