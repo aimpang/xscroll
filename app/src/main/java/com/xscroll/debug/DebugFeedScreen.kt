@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.asPaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.imePadding
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.padding
@@ -117,7 +118,7 @@ fun DebugFeedScreen(
         state.videos.firstOrNull()?.let { danmakuViewModel.observeVideo(it.video.id) }
     }
 
-    Box(Modifier.fillMaxSize().background(colors.background)) {
+    Box(Modifier.fillMaxSize().imePadding().background(colors.background)) {
 
         VerticalPager(
             state = pagerState,
@@ -213,16 +214,15 @@ fun DebugFeedScreen(
                 .padding(end = 12.dp, top = topPad + 16.dp),
         )
 
-        // Message button — bottom-center
-        // Derive locked state directly from secondsOnVideo to avoid async flicker
+        // Message button — bottom-right, TikTok-style
         MessageButton(
             tokenCount = danmakuState.tokenCount,
             isLocked = secondsOnVideo >= 9,
             secondsOnVideo = secondsOnVideo,
             onClick = { danmakuViewModel.showInput() },
             modifier = Modifier
-                .align(Alignment.BottomCenter)
-                .padding(bottom = botPad + 20.dp),
+                .align(Alignment.BottomEnd)
+                .padding(end = 16.dp, bottom = botPad + 20.dp),
         )
 
         // Danmaku input

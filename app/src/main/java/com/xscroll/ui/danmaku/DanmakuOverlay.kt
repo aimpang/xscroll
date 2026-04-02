@@ -18,7 +18,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Shadow
-import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
@@ -83,7 +82,7 @@ private fun DanmakuItem(
     val scrollDurationMs = remember { (SCROLL_DURATION_MIN_MS..SCROLL_DURATION_MAX_MS).random() }
     // Silly per-message personality — stable across recompositions
     val fontSize = remember { (14..20).random().sp }
-    val rotation = remember { (-4f..4f).let { range -> range.start + (range.endInclusive - range.start) * Math.random().toFloat() } }
+
     val yWobblePx = remember { (-12f..12f).let { range -> range.start + (range.endInclusive - range.start) * Math.random().toFloat() } }
 
     // rememberUpdatedState so the LaunchedEffect(Unit) always sees the latest loopCount
@@ -124,7 +123,6 @@ private fun DanmakuItem(
             .offset {
                 IntOffset(xOffset.value.roundToInt(), (yOffsetPx + yWobblePx).roundToInt())
             }
-            .graphicsLayer { rotationZ = rotation },
     ) {
         Text(
             text = message.text,

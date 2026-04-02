@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.asPaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.imePadding
 import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -140,6 +141,7 @@ fun FeedScreen(
     Box(
         modifier = Modifier
             .fillMaxSize()
+            .imePadding()
             .background(colors.background),
     ) {
         // Video pager
@@ -192,16 +194,15 @@ fun FeedScreen(
                 .padding(start = 21.dp, top = topPad + 17.dp),
         )
 
-        // Message button (bottom-center)
-        // Derive locked state directly from secondsOnVideo to avoid async flicker
+        // Message button (bottom-right, TikTok-style)
         MessageButton(
             tokenCount = danmakuState.tokenCount,
             isLocked = secondsOnVideo >= 9,
             secondsOnVideo = secondsOnVideo,
             onClick = { danmakuViewModel.showInput() },
             modifier = Modifier
-                .align(Alignment.BottomCenter)
-                .padding(bottom = botPad + 20.dp),
+                .align(Alignment.BottomEnd)
+                .padding(end = 16.dp, bottom = botPad + 20.dp),
         )
 
         // Danmaku text input
