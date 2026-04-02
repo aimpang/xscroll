@@ -1,12 +1,8 @@
 package com.xscroll.ui.feed
 
-import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.animation.fadeIn
-import androidx.compose.animation.fadeOut
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.asPaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
@@ -18,6 +14,7 @@ import androidx.compose.foundation.pager.VerticalPager
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -30,7 +27,6 @@ import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -38,10 +34,15 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalFocusManager
+import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.role
+import androidx.compose.ui.semantics.semantics
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.xscroll.ui.danmaku.DanmakuInput
 import com.xscroll.ui.danmaku.DanmakuOverlay
 import com.xscroll.ui.danmaku.DanmakuViewModel
+import com.xscroll.ui.theme.LocalXScrollColors
 import kotlinx.coroutines.delay
 
 @Composable
@@ -52,6 +53,8 @@ fun FeedScreen(
 ) {
     val state by viewModel.state.collectAsState()
     val danmakuState by danmakuViewModel.state.collectAsState()
+    val colors = MaterialTheme.colorScheme
+    val accent = LocalXScrollColors.current
 
     val topPad = WindowInsets.statusBars.asPaddingValues().calculateTopPadding()
     val botPad = WindowInsets.navigationBars.asPaddingValues().calculateBottomPadding()
@@ -62,10 +65,10 @@ fun FeedScreen(
         Box(
             modifier = Modifier
                 .fillMaxSize()
-                .background(Color.Black),
+                .background(colors.background),
             contentAlignment = Alignment.Center,
         ) {
-            CircularProgressIndicator(color = Color.White)
+            CircularProgressIndicator(color = colors.onBackground)
         }
         return
     }
@@ -74,12 +77,12 @@ fun FeedScreen(
         Box(
             modifier = Modifier
                 .fillMaxSize()
-                .background(Color.Black),
+                .background(colors.background),
             contentAlignment = Alignment.Center,
         ) {
             Text(
                 text = "No videos yet",
-                color = Color.White.copy(alpha = 0.6f),
+                color = colors.onBackground.copy(alpha = 0.6f),
                 fontSize = 16.sp,
             )
         }
@@ -137,7 +140,7 @@ fun FeedScreen(
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color.Black),
+            .background(colors.background),
     ) {
         // Video pager
         VerticalPager(
@@ -218,7 +221,7 @@ fun FeedScreen(
                     .align(Alignment.TopCenter)
                     .padding(16.dp)
                     .size(24.dp),
-                color = Color.White.copy(alpha = 0.5f),
+                color = colors.onBackground.copy(alpha = 0.5f),
                 strokeWidth = 2.dp,
             )
         }
@@ -230,69 +233,27 @@ private fun RecordFab(
     onClick: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
+    val colors = MaterialTheme.colorScheme
+    val accent = LocalXScrollColors.current
+
     Box(
         modifier = modifier
-            .size(40.dp)
+            .size(48.dp)
             .clip(RoundedCornerShape(12.dp))
-            .background(Color.White.copy(alpha = 0.15f))
-            .clickable { onClick() },
+            .background(accent.overlayLight)
+            .clickable { onClick() }
+            .semantics {
+                contentDescription = "Record video"
+                role = Role.Button
+            },
         contentAlignment = Alignment.Center,
     ) {
         Text(
             text = "+",
-            color = Color.White,
+            color = colors.onBackground,
             fontSize = 22.sp,
             fontWeight = FontWeight.Bold,
         )
     }
 }
 
-@Composable
-private fun MessageButton(
-    tokenCount: Int,
-    isLocked: Boolean,
-    secondsOnVideo: Int,
-    onClick: () -> Unit,
-    modifier: Modifier = Modifier,
-) {
-    // Final 9s window is three 3s loops; show 3, 2, 1 in the last three seconds (6s–9s)
-    val countdownSec = if (secondsOnVideo in 6..8) 9 - secondsOnVideo else null
-    val showCountdown = countdownSec != null && !isLocked
-
-    AnimatedVisibility(
-        visible = !isLocked,
-        enter = fadeIn(),
-        exit = fadeOut(),
-        modifier = modifier,
-    ) {
-        Box(
-            modifier = Modifier
-                .clip(RoundedCornerShape(20.dp))
-                .background(
-                    if (showCountdown) Color(0xFFFF6B6B).copy(alpha = 0.25f)
-                    else Color.White.copy(alpha = 0.12f)
-                )
-                .clickable { onClick() }
-                .padding(horizontal = 16.dp, vertical = 10.dp),
-        ) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(
-                    text = if (showCountdown) "⚡" else "💬",
-                    fontSize = 14.sp,
-                )
-                Text(
-                    text = if (countdownSec != null) " $countdownSec" else " drop a comment",
-                    color = if (showCountdown) Color(0xFFFF6B6B) else Color.White.copy(alpha = 0.7f),
-                    fontSize = 12.sp,
-                    fontWeight = if (showCountdown) FontWeight.Bold else FontWeight.Normal,
-                )
-                Text(
-                    text = "  $tokenCount✦",
-                    color = Color(0xFFFFD700).copy(alpha = 0.8f),
-                    fontSize = 11.sp,
-                    fontWeight = FontWeight.Bold,
-                )
-            }
-        }
-    }
-}

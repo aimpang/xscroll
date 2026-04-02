@@ -1,13 +1,9 @@
 package com.xscroll.debug
 
-import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.animation.fadeIn
-import androidx.compose.animation.fadeOut
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.asPaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
@@ -21,6 +17,7 @@ import androidx.compose.foundation.pager.VerticalPager
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -40,10 +37,16 @@ import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.role
+import androidx.compose.ui.semantics.semantics
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.xscroll.ui.danmaku.DanmakuInput
 import com.xscroll.ui.danmaku.DanmakuOverlay
+import com.xscroll.ui.feed.MessageButton
 import com.xscroll.ui.feed.VideoPlayer
+import com.xscroll.ui.theme.LocalXScrollColors
 import kotlinx.coroutines.delay
 
 @Composable
@@ -54,21 +57,23 @@ fun DebugFeedScreen(
 ) {
     val state by feedViewModel.state.collectAsState()
     val danmakuState by danmakuViewModel.state.collectAsState()
+    val colors = MaterialTheme.colorScheme
+    val accent = LocalXScrollColors.current
 
     val topPad = WindowInsets.statusBars.asPaddingValues().calculateTopPadding()
     val botPad = WindowInsets.navigationBars.asPaddingValues().calculateBottomPadding()
     val focusManager = LocalFocusManager.current
 
     if (state.isLoading) {
-        Box(Modifier.fillMaxSize().background(Color.Black), Alignment.Center) {
-            CircularProgressIndicator(color = Color.White)
+        Box(Modifier.fillMaxSize().background(colors.background), Alignment.Center) {
+            CircularProgressIndicator(color = colors.onBackground)
         }
         return
     }
 
     if (state.videos.isEmpty()) {
-        Box(Modifier.fillMaxSize().background(Color.Black), Alignment.Center) {
-            Text("No fake videos found", color = Color.White)
+        Box(Modifier.fillMaxSize().background(colors.background), Alignment.Center) {
+            Text("No fake videos found", color = colors.onBackground)
         }
         return
     }
@@ -112,7 +117,7 @@ fun DebugFeedScreen(
         state.videos.firstOrNull()?.let { danmakuViewModel.observeVideo(it.video.id) }
     }
 
-    Box(Modifier.fillMaxSize().background(Color.Black)) {
+    Box(Modifier.fillMaxSize().background(colors.background)) {
 
         VerticalPager(
             state = pagerState,
@@ -137,20 +142,20 @@ fun DebugFeedScreen(
                         .align(Alignment.BottomCenter)
                         .fillMaxWidth()
                         .height(6.dp)
-                        .background(videoColor.copy(alpha = 1f)),
+                        .background(videoColor),
                 )
                 // Color dot + label
                 Box(
                     modifier = Modifier
                         .align(Alignment.BottomStart)
                         .padding(start = 16.dp, bottom = 16.dp)
-                        .clip(androidx.compose.foundation.shape.RoundedCornerShape(8.dp))
+                        .clip(RoundedCornerShape(8.dp))
                         .background(videoColor.copy(alpha = 0.85f))
                         .padding(horizontal = 10.dp, vertical = 4.dp),
                 ) {
                     Text(
                         text = "Video ${page + 1}",
-                        color = Color.White,
+                        color = colors.onBackground,
                         fontSize = 11.sp,
                         fontWeight = FontWeight.Bold,
                     )
@@ -185,13 +190,17 @@ fun DebugFeedScreen(
             modifier = Modifier
                 .align(Alignment.TopStart)
                 .padding(start = 16.dp, top = topPad + 12.dp)
-                .size(40.dp)
+                .size(48.dp)
                 .clip(RoundedCornerShape(12.dp))
-                .background(Color.White.copy(alpha = 0.15f))
-                .clickable { onRecordClick() },
+                .background(accent.overlayLight)
+                .clickable { onRecordClick() }
+                .semantics {
+                    contentDescription = "Record video"
+                    role = Role.Button
+                },
             contentAlignment = Alignment.Center,
         ) {
-            Text("+", color = Color.White, fontSize = 22.sp, fontWeight = FontWeight.Bold)
+            Text("+", color = colors.onBackground, fontSize = 22.sp, fontWeight = FontWeight.Bold)
         }
 
         // DEBUG badge — top-right
@@ -229,7 +238,7 @@ fun DebugFeedScreen(
         // Video counter — bottom-center
         Text(
             text = "${state.currentIndex + 1} / ${state.videos.size}",
-            color = Color.White.copy(alpha = 0.35f),
+            color = colors.onBackground.copy(alpha = 0.35f),
             fontSize = 11.sp,
             modifier = Modifier
                 .align(Alignment.BottomCenter)
@@ -238,51 +247,3 @@ fun DebugFeedScreen(
     }
 }
 
-@Composable
-private fun MessageButton(
-    tokenCount: Int,
-    isLocked: Boolean,
-    secondsOnVideo: Int,
-    onClick: () -> Unit,
-    modifier: Modifier = Modifier,
-) {
-    val countdownSec = if (secondsOnVideo in 6..8) 9 - secondsOnVideo else null
-    val showCountdown = countdownSec != null && !isLocked
-
-    AnimatedVisibility(
-        visible = !isLocked,
-        enter = fadeIn(),
-        exit = fadeOut(),
-        modifier = modifier,
-    ) {
-        Box(
-            modifier = Modifier
-                .clip(RoundedCornerShape(20.dp))
-                .background(
-                    if (showCountdown) Color(0xFFFF6B6B).copy(alpha = 0.25f)
-                    else Color.White.copy(alpha = 0.12f)
-                )
-                .clickable { onClick() }
-                .padding(horizontal = 16.dp, vertical = 10.dp),
-        ) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(
-                    text = if (showCountdown) "⚡" else "💬",
-                    fontSize = 14.sp,
-                )
-                Text(
-                    text = if (countdownSec != null) " $countdownSec" else " drop a comment",
-                    color = if (showCountdown) Color(0xFFFF6B6B) else Color.White.copy(alpha = 0.7f),
-                    fontSize = 12.sp,
-                    fontWeight = if (showCountdown) FontWeight.Bold else FontWeight.Normal,
-                )
-                Text(
-                    text = "  $tokenCount✦",
-                    color = Color(0xFFFFD700).copy(alpha = 0.8f),
-                    fontSize = 11.sp,
-                    fontWeight = FontWeight.Bold,
-                )
-            }
-        }
-    }
-}

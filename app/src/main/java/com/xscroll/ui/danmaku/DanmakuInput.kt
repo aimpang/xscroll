@@ -12,6 +12,7 @@ import androidx.compose.foundation.layout.imePadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
@@ -24,11 +25,13 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.xscroll.ui.theme.LocalXScrollColors
 
 @Composable
 fun DanmakuInput(
@@ -41,6 +44,8 @@ fun DanmakuInput(
 ) {
     var text by remember { mutableStateOf("") }
     val focusRequester = remember { FocusRequester() }
+    val colors = MaterialTheme.colorScheme
+    val accent = LocalXScrollColors.current
 
     LaunchedEffect(visible, isLocked) {
         if (visible && !isLocked) {
@@ -59,7 +64,7 @@ fun DanmakuInput(
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .background(Color.Black.copy(alpha = 0.8f))
+                .background(colors.background.copy(alpha = 0.8f))
                 .padding(horizontal = 12.dp, vertical = 8.dp),
             verticalAlignment = Alignment.CenterVertically,
         ) {
@@ -68,17 +73,18 @@ fun DanmakuInput(
                 onValueChange = { if (it.length <= 50) text = it },
                 modifier = Modifier
                     .weight(1f)
-                    .background(Color.White.copy(alpha = 0.1f), RoundedCornerShape(20.dp))
+                    .background(colors.onBackground.copy(alpha = 0.1f), RoundedCornerShape(20.dp))
                     .padding(horizontal = 16.dp, vertical = 10.dp)
-                    .focusRequester(focusRequester),
-                textStyle = TextStyle(color = Color.White, fontSize = 14.sp),
-                cursorBrush = SolidColor(Color.White),
+                    .focusRequester(focusRequester)
+                    .semantics { contentDescription = "Message input" },
+                textStyle = TextStyle(color = colors.onBackground, fontSize = 14.sp),
+                cursorBrush = SolidColor(colors.onBackground),
                 singleLine = true,
                 decorationBox = { inner ->
                     if (text.isEmpty()) {
                         Text(
                             "Send a message...",
-                            color = Color.White.copy(alpha = 0.4f),
+                            color = accent.textFaint,
                             fontSize = 14.sp,
                         )
                     }
@@ -99,14 +105,14 @@ fun DanmakuInput(
                 Text(
                     "Send",
                     color = if (text.isNotBlank() && tokenCount > 0)
-                        Color.White else Color.White.copy(alpha = 0.3f),
+                        colors.onBackground else colors.onBackground.copy(alpha = 0.3f),
                     fontSize = 14.sp,
                 )
             }
 
             Text(
                 text = "\uD83E\uDE99$tokenCount",
-                color = Color.White.copy(alpha = 0.5f),
+                color = colors.onBackground.copy(alpha = 0.5f),
                 fontSize = 12.sp,
                 modifier = Modifier.padding(start = 4.dp),
             )

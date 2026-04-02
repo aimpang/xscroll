@@ -15,7 +15,9 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Shadow
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
@@ -114,7 +116,6 @@ private fun DanmakuItem(
             IntOffset(xOffset.value.roundToInt(), yOffsetPx.roundToInt())
         },
     ) {
-        // Subtle dark stroke for readability on any background
         Text(
             text = message.text,
             color = color,
@@ -122,6 +123,13 @@ private fun DanmakuItem(
             fontWeight = FontWeight.Bold,
             maxLines = 1,
             overflow = TextOverflow.Visible,
+            style = androidx.compose.ui.text.TextStyle(
+                shadow = Shadow(
+                    color = Color.Black.copy(alpha = 0.7f),
+                    offset = Offset(1f, 1f),
+                    blurRadius = 3f,
+                ),
+            ),
         )
     }
 }
