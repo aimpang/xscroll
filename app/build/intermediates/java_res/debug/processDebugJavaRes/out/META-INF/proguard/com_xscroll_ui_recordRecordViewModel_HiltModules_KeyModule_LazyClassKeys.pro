@@ -1,0 +1,6 @@
+-keep,allowobfuscation,allowshrinking class com.xscroll.ui.danmaku.DanmakuViewModel
+-keep,allowobfuscation,allowshrinking class com.xscroll.ui.danmaku.DanmakuViewModel
+-keep,allowobfuscation,allowshrinking class com.xscroll.ui.feed.FeedViewModel
+-keep,allowobfuscation,allowshrinking class com.xscroll.ui.feed.FeedViewModel
+-keep,allowobfuscation,allowshrinking class com.xscroll.ui.record.RecordViewModel
+-keep,allowobfuscation,allowshrinking class com.xscroll.ui.record.RecordViewModel

@@ -1,0 +1,994 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:2:1-32:12
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\1367ba25e1e5f8daba36432ef01d838e\transformed\hilt-navigation-compose-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\94632c9b961a202a9c4ea342b69470ee\transformed\hilt-navigation-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.8.5] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\dccf51b5486408809a36d69134831138\transformed\navigation-common-2.8.5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.5] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\fa2e5e5f042e3ce22ead57754b00b197\transformed\navigation-runtime-2.8.5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.5] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7cb403df6b5c7f4c82dbd93e1ff9bcd7\transformed\navigation-common-ktx-2.8.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.5] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\8edbfee0fc1a43d807a76d6e6fc91936\transformed\navigation-runtime-ktx-2.8.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.8.5] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\3970dc86dc943949d1ceeace7a78df74\transformed\navigation-compose-2.8.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-view:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c43129980e68f47872ed400f3aaa0930\transformed\camera-view-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-video:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\6aa2dd5123b9472e80387db5d8efffce\transformed\camera-video-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-lifecycle:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\2913e3c4e6aeedf12b111ecf24b9d2c5\transformed\camera-lifecycle-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f08c2325b7facfb41e95d7cffcf102b0\transformed\camera-camera2-1.4.1\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\21a8d175ab9321f2a00f71b405ff681a\transformed\camera-core-1.4.1\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.dagger:hilt-android:2.53.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e4ebc2d29b85c6829ef1bf457ae34bd1\transformed\hilt-android-2.53.1\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\aaf4439d28a2eeff21e1281dc5bdfa42\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:17:1-75:12
+MERGED from [com.android.billingclient:billing-ktx:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d32e37d9230cdcd07c4e3ad95d37aac8\transformed\billing-ktx-7.1.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:2:1-38:12
+MERGED from [com.google.firebase:firebase-storage-ktx:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c78c77dcc0dabfada91b5d3037924d8c\transformed\firebase-storage-ktx-21.0.1\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\20f2adfa32db0b781fc26393b4c463ce\transformed\firebase-storage-21.0.1\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\4f5eb03a9c47945737f142e2d5bdc325\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e4e0adbf8028bada8ee7e69d7dcfd500\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-location:19.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\b387f16cd9785bcd48f9f5c8729c5af6\transformed\play-services-location-19.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d35c8b3de26ad22de29e872ad263f2fd\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\80c5d72b87709cce17bb4781138f3d5b\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\cf3741fedb759f17c009ccf443f2e7b6\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\b6c49a62a410225ebe34108c969a47b1\transformed\credentials-1.2.0-rc01\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\2d52797e6f9f55394f1c9bcbf77bdae6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\38a0cf3d96b550d95978e2c9f530b888\transformed\play-services-auth-20.7.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\b344758b8b210758392529010349405d\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c0ad757342f6efee6a8cd775213d6dc9\transformed\play-services-fido-20.1.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\5d265649dea5794dfeed88a61278bfbf\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7c7e563ed9b7fc0f3eef93487331b1d1\transformed\play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ebfdab53cc52cfb336749b6e182e941d\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\28fe0a11980df8419033819cc78f4f3f\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\87b5eeffe0638ec603e69d9037a8945d\transformed\firebase-common-21.0.0\AndroidManifest.xml:15:1-41:12
+MERGED from [io.coil-kt:coil-compose:2.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d763384703abdcae6914f9275c2705c3\transformed\coil-compose-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ffeae74158a0403f09352d8c447327b0\transformed\coil-compose-base-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\963238f624a27b8beb091ce357165894\transformed\material3-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\a2e2c0173d604f42de43335506ba94fc\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d2be2dec535e9ed82b424ceeb58f4104\transformed\ui-tooling-data-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\b8506ac7cc5f46869e0e5e608dd61579\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\a22648705fac6b62b442cbf2050b6045\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\599369a5b2102ae48f76dd689f5eeee0\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\5c59c2f0e15e20fbdf4b124e9d1673cf\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9877890df11340c1049e7bd3b21b323b\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d8de453dd50c9202b487012edab49601\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\3fd44ce153ba2075c6a4c31767aa23b7\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\25915353846d5807a5ff27c9850559f0\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.material:material-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\a75ee372d978ecb315e1f912ef61b6c0\transformed\material-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\cb7b8f5223e2121ce5255b2ed475f5c9\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\405d66f003b9f532efe0575b02a80b2e\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\da628665d72080db7eecaf79c144b1cb\transformed\animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\0bcbf3c80554a4d297aa94cfe0c3a114\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\0d819bc97b54cdb8bd16f855ffda54b1\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil:2.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\a7593b0e0ba67ccbbbf42922842c5528\transformed\coil-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\3bf59d5cc0f0335cfb4f883b566a1032\transformed\coil-base-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7cf78c67d7ac2f88037d23115f0b18fe\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f63f584b49386eaa3b8b94698b0d55ee\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\bd7c91c1997285b92cf76460e55fefea\transformed\activity-1.9.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\10be28f104cf069c0492d76d364e5fc5\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c6d485e111aff17dc7623324ea47a779\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\aa1b80f18156b940282ffb6a2061170d\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-ui:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\cdd162de053186164c490d7c7c2edc36\transformed\media3-ui-1.5.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-extractor:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d86c95ef0a1e06f8fab8bff83bd9b7ac\transformed\media3-extractor-1.5.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-container:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d29cc1e36a2d38227f49b8f1ef4f9704\transformed\media3-container-1.5.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-datasource:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\77a37c0247a84d5b9aff5476e2f26926\transformed\media3-datasource-1.5.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-decoder:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\44ab0b9f6d678be6c0712b33cf561861\transformed\media3-decoder-1.5.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-database:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\6c1d37186245b4dbb64b98dd74d26017\transformed\media3-database-1.5.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-common:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\17fc76bbd9be751b11d1605cb884690e\transformed\media3-common-1.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media3:media3-exoplayer:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f9b5075eec4743fce1a20deecdc27e2b\transformed\media3-exoplayer-1.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\230f95ce5cd7073a7a6e3211d6c9510c\transformed\media-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\566349ff6162ad5297db9ba54f0586fb\transformed\recyclerview-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9cf2e5765da9e4bdc0637ebff051b5c6\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\111f8a48b493a0706fdd028e9188cd23\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\21b94b67477b15e49cee7d2b00254ccd\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c7e34929e8d1438435810289608fea43\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c343fb727e77af40dee7eaac6fcc4a69\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\dd814813c3eda4231f6f1e1c0b6b1e07\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d9140a8e7f84f2e80ef2d5417410fe92\transformed\graphics-path-1.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\5918c6ad7cdadc8ee5b73d6e0f3e6bd9\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\609d1817ab7d5f063fd430d049107af9\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\cb94067fd8ad139efc9f74c7e1f23598\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\5c759a075323039b6ba27b3e7b07807c\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7d1a4b364bc5157a8c7c2e187a4eae88\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\736d46ea5ea18b43ec263774426691fa\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\69e5dfc91fb93c159c35ac4704afb2b3\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\720e66e070888967d5886b13a662cff7\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\70c15c09c1046dba0a2422d94aa87051\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e308e5fe61911a19e73c18dc44b67338\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\05ff9fc4d84908baed5bec38324819de\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d507564fbeea4041a975c340811cdb83\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\a667df88c728245bb323e370e199bdbd\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f89129dafc5c0e2837c3da9c98617534\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f2e797236f2d00ac048d30e904a70800\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:17:1-23:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\02d01fc53fab95351be2148b8c270155\transformed\recaptcha-18.5.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\822fed821d633b19d1831ea071937748\transformed\integrity-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e56cf0d70f11196ce8917fb32ed6d84f\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\0c08c62805bf5250307b5d7ae9e84f5f\transformed\play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e3b3cd32bb97f40aaab09b30de41a87d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\32a2654c737d4a06ddd8d46aece79be2\transformed\fragment-1.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\8351ab764c56a1784098f5b89e8b0ce4\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\50d0e54d4ca214c4f4a04c14489ba89e\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\528eb02ff6835935ac8f2e0a447a801d\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\50afc4949a2456395ae9c1491282e2f5\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\293e7e481ce591f6a5bc69b830f6b6fe\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\37c37f7d6d15b67caa770ec6cb943355\transformed\ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e74285955c40e999d10bf8e8d317de80\transformed\activity-ktx-1.9.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.9.3] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\0a1a5adbd7d2940fc45e7846a5c1279e\transformed\activity-compose-1.9.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\cc2d6434844fd7098fb681e9de482dcc\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\20236cd48bbe1f1383d80cbabb6bcb73\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9e59d4c3b141cf5c70d92ab0326c9d5f\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\fa3a57fc3f7292891eadd74a9946d19d\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ff7fd7e28e2a3137ec537e290a92420a\transformed\firebase-components-18.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\52197ff5231a2c532590cba5f0e775e4\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\17992c8b2cc9cae65f787eb54b75c8cd\transformed\transport-runtime-3.1.8\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\edd2bbece07625f65863d90a7fcc803c\transformed\transport-api-3.0.0\AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\1e92568f1cbf0851d0c580ef46437144\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\eaa0411b6a36b0a31358ed4e311fe76e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\56b793bd28a8a4aa88e2f76e5c666fd0\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ac74dc7fe1c3e2c5f260b94edad5a97b\transformed\exifinterface-1.3.7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\623237c2c1cc6f3922adf19c82ad2266\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\a6efe7f7b8a52ee09f79ce33addaab4d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\6a4058f344e0fc1ee7d43ce2e748bc4d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\b6fda3d63b6d27190d34be29842a4f04\transformed\googleid-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.53.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\5271a78e5d05069d27c4b4abba6d103f\transformed\dagger-lint-aar-2.53.1\AndroidManifest.xml:16:1-19:12
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\16519beb706a746369bf35017c6a9b3d\transformed\grpc-android-1.62.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c3bdc9a6723551a631951fccc758c709\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ff581c196301ee338e8b4ac9139454b7\transformed\core-common-2.0.3\AndroidManifest.xml:2:1-21:12
+	package
+		INJECTED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\20f2adfa32db0b781fc26393b4c463ce\transformed\firebase-storage-21.0.1\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\20f2adfa32db0b781fc26393b4c463ce\transformed\firebase-storage-21.0.1\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e4e0adbf8028bada8ee7e69d7dcfd500\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e4e0adbf8028bada8ee7e69d7dcfd500\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\02d01fc53fab95351be2148b8c270155\transformed\recaptcha-18.5.1\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\02d01fc53fab95351be2148b8c270155\transformed\recaptcha-18.5.1\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\52197ff5231a2c532590cba5f0e775e4\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\52197ff5231a2c532590cba5f0e775e4\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.CAMERA
+ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:5:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:6:22-68
+uses-permission#com.android.vending.BILLING
+ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from [com.android.billingclient:billing-ktx:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d32e37d9230cdcd07c4e3ad95d37aac8\transformed\billing-ktx-7.1.1\AndroidManifest.xml:9:5-67
+MERGED from [com.android.billingclient:billing-ktx:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d32e37d9230cdcd07c4e3ad95d37aac8\transformed\billing-ktx-7.1.1\AndroidManifest.xml:9:5-67
+MERGED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:10:5-67
+MERGED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:7:22-64
+uses-feature#android.hardware.camera
+ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:9:5-85
+	android:required
+		ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:9:58-82
+	android:name
+		ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:9:19-57
+application
+ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:11:5-31:19
+INJECTED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:11:5-31:19
+MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f08c2325b7facfb41e95d7cffcf102b0\transformed\camera-camera2-1.4.1\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f08c2325b7facfb41e95d7cffcf102b0\transformed\camera-camera2-1.4.1\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\21a8d175ab9321f2a00f71b405ff681a\transformed\camera-core-1.4.1\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\21a8d175ab9321f2a00f71b405ff681a\transformed\camera-core-1.4.1\AndroidManifest.xml:23:5-34:19
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\aaf4439d28a2eeff21e1281dc5bdfa42\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\aaf4439d28a2eeff21e1281dc5bdfa42\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:28:5-73:19
+MERGED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:21:5-36:19
+MERGED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:21:5-36:19
+MERGED from [com.google.firebase:firebase-storage-ktx:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c78c77dcc0dabfada91b5d3037924d8c\transformed\firebase-storage-ktx-21.0.1\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-storage-ktx:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c78c77dcc0dabfada91b5d3037924d8c\transformed\firebase-storage-ktx-21.0.1\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\20f2adfa32db0b781fc26393b4c463ce\transformed\firebase-storage-21.0.1\AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\20f2adfa32db0b781fc26393b4c463ce\transformed\firebase-storage-21.0.1\AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\4f5eb03a9c47945737f142e2d5bdc325\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\4f5eb03a9c47945737f142e2d5bdc325\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e4e0adbf8028bada8ee7e69d7dcfd500\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e4e0adbf8028bada8ee7e69d7dcfd500\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.android.gms:play-services-location:19.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\b387f16cd9785bcd48f9f5c8729c5af6\transformed\play-services-location-19.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:19.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\b387f16cd9785bcd48f9f5c8729c5af6\transformed\play-services-location-19.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d35c8b3de26ad22de29e872ad263f2fd\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d35c8b3de26ad22de29e872ad263f2fd\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\80c5d72b87709cce17bb4781138f3d5b\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\80c5d72b87709cce17bb4781138f3d5b\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\2d52797e6f9f55394f1c9bcbf77bdae6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:23:5-42:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\2d52797e6f9f55394f1c9bcbf77bdae6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:23:5-42:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\38a0cf3d96b550d95978e2c9f530b888\transformed\play-services-auth-20.7.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\38a0cf3d96b550d95978e2c9f530b888\transformed\play-services-auth-20.7.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c0ad757342f6efee6a8cd775213d6dc9\transformed\play-services-fido-20.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c0ad757342f6efee6a8cd775213d6dc9\transformed\play-services-fido-20.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7c7e563ed9b7fc0f3eef93487331b1d1\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7c7e563ed9b7fc0f3eef93487331b1d1\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ebfdab53cc52cfb336749b6e182e941d\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ebfdab53cc52cfb336749b6e182e941d\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\28fe0a11980df8419033819cc78f4f3f\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\28fe0a11980df8419033819cc78f4f3f\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\87b5eeffe0638ec603e69d9037a8945d\transformed\firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\87b5eeffe0638ec603e69d9037a8945d\transformed\firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\25915353846d5807a5ff27c9850559f0\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\25915353846d5807a5ff27c9850559f0\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c343fb727e77af40dee7eaac6fcc4a69\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c343fb727e77af40dee7eaac6fcc4a69\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\736d46ea5ea18b43ec263774426691fa\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\736d46ea5ea18b43ec263774426691fa\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\69e5dfc91fb93c159c35ac4704afb2b3\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\69e5dfc91fb93c159c35ac4704afb2b3\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\822fed821d633b19d1831ea071937748\transformed\integrity-1.3.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\822fed821d633b19d1831ea071937748\transformed\integrity-1.3.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e56cf0d70f11196ce8917fb32ed6d84f\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e56cf0d70f11196ce8917fb32ed6d84f\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\0c08c62805bf5250307b5d7ae9e84f5f\transformed\play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\0c08c62805bf5250307b5d7ae9e84f5f\transformed\play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e3b3cd32bb97f40aaab09b30de41a87d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e3b3cd32bb97f40aaab09b30de41a87d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\20236cd48bbe1f1383d80cbabb6bcb73\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\20236cd48bbe1f1383d80cbabb6bcb73\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\52197ff5231a2c532590cba5f0e775e4\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\52197ff5231a2c532590cba5f0e775e4\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\17992c8b2cc9cae65f787eb54b75c8cd\transformed\transport-runtime-3.1.8\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\17992c8b2cc9cae65f787eb54b75c8cd\transformed\transport-runtime-3.1.8\AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\a6efe7f7b8a52ee09f79ce33addaab4d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\a6efe7f7b8a52ee09f79ce33addaab4d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ff581c196301ee338e8b4ac9139454b7\transformed\core-common-2.0.3\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ff581c196301ee338e8b4ac9139454b7\transformed\core-common-2.0.3\AndroidManifest.xml:11:5-19:19
+	android:extractNativeLibs
+		INJECTED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\736d46ea5ea18b43ec263774426691fa\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:15:9-41
+	android:icon
+		ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:14:9-58
+	android:allowBackup
+		ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:13:9-36
+	android:theme
+		ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:17:9-45
+	android:name
+		ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:12:9-28
+activity#com.xscroll.ui.MainActivity
+ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:19:9-29:20
+	android:screenOrientation
+		ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:22:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:23:13-56
+	android:exported
+		ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:21:13-36
+	android:theme
+		ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:24:13-49
+	android:name
+		ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:20:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:25:13-28:29
+action#android.intent.action.MAIN
+ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml:27:27-74
+uses-sdk
+INJECTED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml
+INJECTED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\1367ba25e1e5f8daba36432ef01d838e\transformed\hilt-navigation-compose-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\1367ba25e1e5f8daba36432ef01d838e\transformed\hilt-navigation-compose-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\94632c9b961a202a9c4ea342b69470ee\transformed\hilt-navigation-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\94632c9b961a202a9c4ea342b69470ee\transformed\hilt-navigation-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.5] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\dccf51b5486408809a36d69134831138\transformed\navigation-common-2.8.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.5] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\dccf51b5486408809a36d69134831138\transformed\navigation-common-2.8.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.5] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\fa2e5e5f042e3ce22ead57754b00b197\transformed\navigation-runtime-2.8.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.5] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\fa2e5e5f042e3ce22ead57754b00b197\transformed\navigation-runtime-2.8.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.5] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7cb403df6b5c7f4c82dbd93e1ff9bcd7\transformed\navigation-common-ktx-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.5] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7cb403df6b5c7f4c82dbd93e1ff9bcd7\transformed\navigation-common-ktx-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.5] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\8edbfee0fc1a43d807a76d6e6fc91936\transformed\navigation-runtime-ktx-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.5] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\8edbfee0fc1a43d807a76d6e6fc91936\transformed\navigation-runtime-ktx-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.5] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\3970dc86dc943949d1ceeace7a78df74\transformed\navigation-compose-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.5] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\3970dc86dc943949d1ceeace7a78df74\transformed\navigation-compose-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-view:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c43129980e68f47872ed400f3aaa0930\transformed\camera-view-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-view:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c43129980e68f47872ed400f3aaa0930\transformed\camera-view-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-video:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\6aa2dd5123b9472e80387db5d8efffce\transformed\camera-video-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-video:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\6aa2dd5123b9472e80387db5d8efffce\transformed\camera-video-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\2913e3c4e6aeedf12b111ecf24b9d2c5\transformed\camera-lifecycle-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\2913e3c4e6aeedf12b111ecf24b9d2c5\transformed\camera-lifecycle-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f08c2325b7facfb41e95d7cffcf102b0\transformed\camera-camera2-1.4.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f08c2325b7facfb41e95d7cffcf102b0\transformed\camera-camera2-1.4.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\21a8d175ab9321f2a00f71b405ff681a\transformed\camera-core-1.4.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\21a8d175ab9321f2a00f71b405ff681a\transformed\camera-core-1.4.1\AndroidManifest.xml:21:5-44
+MERGED from [com.google.dagger:hilt-android:2.53.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e4ebc2d29b85c6829ef1bf457ae34bd1\transformed\hilt-android-2.53.1\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.53.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e4ebc2d29b85c6829ef1bf457ae34bd1\transformed\hilt-android-2.53.1\AndroidManifest.xml:18:3-42
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\aaf4439d28a2eeff21e1281dc5bdfa42\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\aaf4439d28a2eeff21e1281dc5bdfa42\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:21:5-23:151
+MERGED from [com.android.billingclient:billing-ktx:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d32e37d9230cdcd07c4e3ad95d37aac8\transformed\billing-ktx-7.1.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.billingclient:billing-ktx:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d32e37d9230cdcd07c4e3ad95d37aac8\transformed\billing-ktx-7.1.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-storage-ktx:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c78c77dcc0dabfada91b5d3037924d8c\transformed\firebase-storage-ktx-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage-ktx:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c78c77dcc0dabfada91b5d3037924d8c\transformed\firebase-storage-ktx-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\20f2adfa32db0b781fc26393b4c463ce\transformed\firebase-storage-21.0.1\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\20f2adfa32db0b781fc26393b4c463ce\transformed\firebase-storage-21.0.1\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\4f5eb03a9c47945737f142e2d5bdc325\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\4f5eb03a9c47945737f142e2d5bdc325\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e4e0adbf8028bada8ee7e69d7dcfd500\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e4e0adbf8028bada8ee7e69d7dcfd500\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-location:19.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\b387f16cd9785bcd48f9f5c8729c5af6\transformed\play-services-location-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:19.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\b387f16cd9785bcd48f9f5c8729c5af6\transformed\play-services-location-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d35c8b3de26ad22de29e872ad263f2fd\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d35c8b3de26ad22de29e872ad263f2fd\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\80c5d72b87709cce17bb4781138f3d5b\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\80c5d72b87709cce17bb4781138f3d5b\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\cf3741fedb759f17c009ccf443f2e7b6\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\cf3741fedb759f17c009ccf443f2e7b6\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\b6c49a62a410225ebe34108c969a47b1\transformed\credentials-1.2.0-rc01\AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\b6c49a62a410225ebe34108c969a47b1\transformed\credentials-1.2.0-rc01\AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\2d52797e6f9f55394f1c9bcbf77bdae6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:21:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\2d52797e6f9f55394f1c9bcbf77bdae6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\38a0cf3d96b550d95978e2c9f530b888\transformed\play-services-auth-20.7.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\38a0cf3d96b550d95978e2c9f530b888\transformed\play-services-auth-20.7.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\b344758b8b210758392529010349405d\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\b344758b8b210758392529010349405d\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c0ad757342f6efee6a8cd775213d6dc9\transformed\play-services-fido-20.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c0ad757342f6efee6a8cd775213d6dc9\transformed\play-services-fido-20.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\5d265649dea5794dfeed88a61278bfbf\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\5d265649dea5794dfeed88a61278bfbf\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7c7e563ed9b7fc0f3eef93487331b1d1\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7c7e563ed9b7fc0f3eef93487331b1d1\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ebfdab53cc52cfb336749b6e182e941d\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ebfdab53cc52cfb336749b6e182e941d\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\28fe0a11980df8419033819cc78f4f3f\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\28fe0a11980df8419033819cc78f4f3f\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\87b5eeffe0638ec603e69d9037a8945d\transformed\firebase-common-21.0.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\87b5eeffe0638ec603e69d9037a8945d\transformed\firebase-common-21.0.0\AndroidManifest.xml:19:5-44
+MERGED from [io.coil-kt:coil-compose:2.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d763384703abdcae6914f9275c2705c3\transformed\coil-compose-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d763384703abdcae6914f9275c2705c3\transformed\coil-compose-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ffeae74158a0403f09352d8c447327b0\transformed\coil-compose-base-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ffeae74158a0403f09352d8c447327b0\transformed\coil-compose-base-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\963238f624a27b8beb091ce357165894\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\963238f624a27b8beb091ce357165894\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\a2e2c0173d604f42de43335506ba94fc\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\a2e2c0173d604f42de43335506ba94fc\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d2be2dec535e9ed82b424ceeb58f4104\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d2be2dec535e9ed82b424ceeb58f4104\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\b8506ac7cc5f46869e0e5e608dd61579\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\b8506ac7cc5f46869e0e5e608dd61579\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\a22648705fac6b62b442cbf2050b6045\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\a22648705fac6b62b442cbf2050b6045\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\599369a5b2102ae48f76dd689f5eeee0\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\599369a5b2102ae48f76dd689f5eeee0\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\5c59c2f0e15e20fbdf4b124e9d1673cf\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\5c59c2f0e15e20fbdf4b124e9d1673cf\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9877890df11340c1049e7bd3b21b323b\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9877890df11340c1049e7bd3b21b323b\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d8de453dd50c9202b487012edab49601\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d8de453dd50c9202b487012edab49601\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\3fd44ce153ba2075c6a4c31767aa23b7\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\3fd44ce153ba2075c6a4c31767aa23b7\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\25915353846d5807a5ff27c9850559f0\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\25915353846d5807a5ff27c9850559f0\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\a75ee372d978ecb315e1f912ef61b6c0\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\a75ee372d978ecb315e1f912ef61b6c0\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\cb7b8f5223e2121ce5255b2ed475f5c9\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\cb7b8f5223e2121ce5255b2ed475f5c9\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\405d66f003b9f532efe0575b02a80b2e\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\405d66f003b9f532efe0575b02a80b2e\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\da628665d72080db7eecaf79c144b1cb\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\da628665d72080db7eecaf79c144b1cb\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\0bcbf3c80554a4d297aa94cfe0c3a114\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\0bcbf3c80554a4d297aa94cfe0c3a114\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\0d819bc97b54cdb8bd16f855ffda54b1\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\0d819bc97b54cdb8bd16f855ffda54b1\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\a7593b0e0ba67ccbbbf42922842c5528\transformed\coil-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\a7593b0e0ba67ccbbbf42922842c5528\transformed\coil-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\3bf59d5cc0f0335cfb4f883b566a1032\transformed\coil-base-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\3bf59d5cc0f0335cfb4f883b566a1032\transformed\coil-base-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7cf78c67d7ac2f88037d23115f0b18fe\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7cf78c67d7ac2f88037d23115f0b18fe\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f63f584b49386eaa3b8b94698b0d55ee\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f63f584b49386eaa3b8b94698b0d55ee\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\bd7c91c1997285b92cf76460e55fefea\transformed\activity-1.9.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\bd7c91c1997285b92cf76460e55fefea\transformed\activity-1.9.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\10be28f104cf069c0492d76d364e5fc5\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\10be28f104cf069c0492d76d364e5fc5\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c6d485e111aff17dc7623324ea47a779\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c6d485e111aff17dc7623324ea47a779\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\aa1b80f18156b940282ffb6a2061170d\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\aa1b80f18156b940282ffb6a2061170d\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-ui:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\cdd162de053186164c490d7c7c2edc36\transformed\media3-ui-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-ui:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\cdd162de053186164c490d7c7c2edc36\transformed\media3-ui-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-extractor:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d86c95ef0a1e06f8fab8bff83bd9b7ac\transformed\media3-extractor-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-extractor:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d86c95ef0a1e06f8fab8bff83bd9b7ac\transformed\media3-extractor-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-container:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d29cc1e36a2d38227f49b8f1ef4f9704\transformed\media3-container-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-container:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d29cc1e36a2d38227f49b8f1ef4f9704\transformed\media3-container-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-datasource:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\77a37c0247a84d5b9aff5476e2f26926\transformed\media3-datasource-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-datasource:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\77a37c0247a84d5b9aff5476e2f26926\transformed\media3-datasource-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-decoder:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\44ab0b9f6d678be6c0712b33cf561861\transformed\media3-decoder-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-decoder:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\44ab0b9f6d678be6c0712b33cf561861\transformed\media3-decoder-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-database:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\6c1d37186245b4dbb64b98dd74d26017\transformed\media3-database-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-database:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\6c1d37186245b4dbb64b98dd74d26017\transformed\media3-database-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-common:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\17fc76bbd9be751b11d1605cb884690e\transformed\media3-common-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-common:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\17fc76bbd9be751b11d1605cb884690e\transformed\media3-common-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f9b5075eec4743fce1a20deecdc27e2b\transformed\media3-exoplayer-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f9b5075eec4743fce1a20deecdc27e2b\transformed\media3-exoplayer-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\230f95ce5cd7073a7a6e3211d6c9510c\transformed\media-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.media:media:1.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\230f95ce5cd7073a7a6e3211d6c9510c\transformed\media-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\566349ff6162ad5297db9ba54f0586fb\transformed\recyclerview-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\566349ff6162ad5297db9ba54f0586fb\transformed\recyclerview-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9cf2e5765da9e4bdc0637ebff051b5c6\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9cf2e5765da9e4bdc0637ebff051b5c6\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\111f8a48b493a0706fdd028e9188cd23\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\111f8a48b493a0706fdd028e9188cd23\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\21b94b67477b15e49cee7d2b00254ccd\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\21b94b67477b15e49cee7d2b00254ccd\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c7e34929e8d1438435810289608fea43\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c7e34929e8d1438435810289608fea43\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c343fb727e77af40dee7eaac6fcc4a69\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c343fb727e77af40dee7eaac6fcc4a69\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\dd814813c3eda4231f6f1e1c0b6b1e07\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\dd814813c3eda4231f6f1e1c0b6b1e07\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d9140a8e7f84f2e80ef2d5417410fe92\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d9140a8e7f84f2e80ef2d5417410fe92\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\5918c6ad7cdadc8ee5b73d6e0f3e6bd9\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\5918c6ad7cdadc8ee5b73d6e0f3e6bd9\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\609d1817ab7d5f063fd430d049107af9\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\609d1817ab7d5f063fd430d049107af9\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\cb94067fd8ad139efc9f74c7e1f23598\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\cb94067fd8ad139efc9f74c7e1f23598\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\5c759a075323039b6ba27b3e7b07807c\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\5c759a075323039b6ba27b3e7b07807c\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7d1a4b364bc5157a8c7c2e187a4eae88\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7d1a4b364bc5157a8c7c2e187a4eae88\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\736d46ea5ea18b43ec263774426691fa\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\736d46ea5ea18b43ec263774426691fa\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\69e5dfc91fb93c159c35ac4704afb2b3\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\69e5dfc91fb93c159c35ac4704afb2b3\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\720e66e070888967d5886b13a662cff7\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\720e66e070888967d5886b13a662cff7\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\70c15c09c1046dba0a2422d94aa87051\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\70c15c09c1046dba0a2422d94aa87051\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e308e5fe61911a19e73c18dc44b67338\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e308e5fe61911a19e73c18dc44b67338\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\05ff9fc4d84908baed5bec38324819de\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\05ff9fc4d84908baed5bec38324819de\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d507564fbeea4041a975c340811cdb83\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d507564fbeea4041a975c340811cdb83\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\a667df88c728245bb323e370e199bdbd\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\a667df88c728245bb323e370e199bdbd\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f89129dafc5c0e2837c3da9c98617534\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f89129dafc5c0e2837c3da9c98617534\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f2e797236f2d00ac048d30e904a70800\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f2e797236f2d00ac048d30e904a70800\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\02d01fc53fab95351be2148b8c270155\transformed\recaptcha-18.5.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\02d01fc53fab95351be2148b8c270155\transformed\recaptcha-18.5.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\822fed821d633b19d1831ea071937748\transformed\integrity-1.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\822fed821d633b19d1831ea071937748\transformed\integrity-1.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e56cf0d70f11196ce8917fb32ed6d84f\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e56cf0d70f11196ce8917fb32ed6d84f\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\0c08c62805bf5250307b5d7ae9e84f5f\transformed\play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\0c08c62805bf5250307b5d7ae9e84f5f\transformed\play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e3b3cd32bb97f40aaab09b30de41a87d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e3b3cd32bb97f40aaab09b30de41a87d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\32a2654c737d4a06ddd8d46aece79be2\transformed\fragment-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\32a2654c737d4a06ddd8d46aece79be2\transformed\fragment-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\8351ab764c56a1784098f5b89e8b0ce4\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\8351ab764c56a1784098f5b89e8b0ce4\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\50d0e54d4ca214c4f4a04c14489ba89e\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\50d0e54d4ca214c4f4a04c14489ba89e\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\528eb02ff6835935ac8f2e0a447a801d\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\528eb02ff6835935ac8f2e0a447a801d\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\50afc4949a2456395ae9c1491282e2f5\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\50afc4949a2456395ae9c1491282e2f5\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\293e7e481ce591f6a5bc69b830f6b6fe\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\293e7e481ce591f6a5bc69b830f6b6fe\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\37c37f7d6d15b67caa770ec6cb943355\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\37c37f7d6d15b67caa770ec6cb943355\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e74285955c40e999d10bf8e8d317de80\transformed\activity-ktx-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e74285955c40e999d10bf8e8d317de80\transformed\activity-ktx-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\0a1a5adbd7d2940fc45e7846a5c1279e\transformed\activity-compose-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\0a1a5adbd7d2940fc45e7846a5c1279e\transformed\activity-compose-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\cc2d6434844fd7098fb681e9de482dcc\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\cc2d6434844fd7098fb681e9de482dcc\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\20236cd48bbe1f1383d80cbabb6bcb73\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\20236cd48bbe1f1383d80cbabb6bcb73\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9e59d4c3b141cf5c70d92ab0326c9d5f\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9e59d4c3b141cf5c70d92ab0326c9d5f\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\fa3a57fc3f7292891eadd74a9946d19d\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\fa3a57fc3f7292891eadd74a9946d19d\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ff7fd7e28e2a3137ec537e290a92420a\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ff7fd7e28e2a3137ec537e290a92420a\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\52197ff5231a2c532590cba5f0e775e4\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\52197ff5231a2c532590cba5f0e775e4\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\17992c8b2cc9cae65f787eb54b75c8cd\transformed\transport-runtime-3.1.8\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\17992c8b2cc9cae65f787eb54b75c8cd\transformed\transport-runtime-3.1.8\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\edd2bbece07625f65863d90a7fcc803c\transformed\transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\edd2bbece07625f65863d90a7fcc803c\transformed\transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\1e92568f1cbf0851d0c580ef46437144\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\1e92568f1cbf0851d0c580ef46437144\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\eaa0411b6a36b0a31358ed4e311fe76e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\eaa0411b6a36b0a31358ed4e311fe76e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\56b793bd28a8a4aa88e2f76e5c666fd0\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\56b793bd28a8a4aa88e2f76e5c666fd0\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ac74dc7fe1c3e2c5f260b94edad5a97b\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ac74dc7fe1c3e2c5f260b94edad5a97b\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\623237c2c1cc6f3922adf19c82ad2266\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\623237c2c1cc6f3922adf19c82ad2266\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\a6efe7f7b8a52ee09f79ce33addaab4d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\a6efe7f7b8a52ee09f79ce33addaab4d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\6a4058f344e0fc1ee7d43ce2e748bc4d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\6a4058f344e0fc1ee7d43ce2e748bc4d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\b6fda3d63b6d27190d34be29842a4f04\transformed\googleid-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\b6fda3d63b6d27190d34be29842a4f04\transformed\googleid-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.dagger:dagger-lint-aar:2.53.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\5271a78e5d05069d27c4b4abba6d103f\transformed\dagger-lint-aar-2.53.1\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.53.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\5271a78e5d05069d27c4b4abba6d103f\transformed\dagger-lint-aar-2.53.1\AndroidManifest.xml:18:3-42
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\16519beb706a746369bf35017c6a9b3d\transformed\grpc-android-1.62.2\AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\16519beb706a746369bf35017c6a9b3d\transformed\grpc-android-1.62.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c3bdc9a6723551a631951fccc758c709\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c3bdc9a6723551a631951fccc758c709\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ff581c196301ee338e8b4ac9139454b7\transformed\core-common-2.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ff581c196301ee338e8b4ac9139454b7\transformed\core-common-2.0.3\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:23:9-148
+	android:targetSdkVersion
+		INJECTED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Claudinator\xscroll\app\src\main\AndroidManifest.xml
+service#androidx.camera.core.impl.MetadataHolderService
+ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f08c2325b7facfb41e95d7cffcf102b0\transformed\camera-camera2-1.4.1\AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\21a8d175ab9321f2a00f71b405ff681a\transformed\camera-core-1.4.1\AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\21a8d175ab9321f2a00f71b405ff681a\transformed\camera-core-1.4.1\AndroidManifest.xml:29:9-33:78
+	tools:node
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f08c2325b7facfb41e95d7cffcf102b0\transformed\camera-camera2-1.4.1\AndroidManifest.xml:29:13-31
+	android:enabled
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f08c2325b7facfb41e95d7cffcf102b0\transformed\camera-camera2-1.4.1\AndroidManifest.xml:26:13-36
+	android:exported
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f08c2325b7facfb41e95d7cffcf102b0\transformed\camera-camera2-1.4.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f08c2325b7facfb41e95d7cffcf102b0\transformed\camera-camera2-1.4.1\AndroidManifest.xml:28:13-75
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f08c2325b7facfb41e95d7cffcf102b0\transformed\camera-camera2-1.4.1\AndroidManifest.xml:25:13-75
+meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
+ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f08c2325b7facfb41e95d7cffcf102b0\transformed\camera-camera2-1.4.1\AndroidManifest.xml:30:13-32:89
+	android:value
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f08c2325b7facfb41e95d7cffcf102b0\transformed\camera-camera2-1.4.1\AndroidManifest.xml:32:17-86
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f08c2325b7facfb41e95d7cffcf102b0\transformed\camera-camera2-1.4.1\AndroidManifest.xml:31:17-103
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\aaf4439d28a2eeff21e1281dc5bdfa42\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-storage-ktx:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c78c77dcc0dabfada91b5d3037924d8c\transformed\firebase-storage-ktx-21.0.1\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-storage-ktx:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c78c77dcc0dabfada91b5d3037924d8c\transformed\firebase-storage-ktx-21.0.1\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\20f2adfa32db0b781fc26393b4c463ce\transformed\firebase-storage-21.0.1\AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\20f2adfa32db0b781fc26393b4c463ce\transformed\firebase-storage-21.0.1\AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\4f5eb03a9c47945737f142e2d5bdc325\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\4f5eb03a9c47945737f142e2d5bdc325\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e4e0adbf8028bada8ee7e69d7dcfd500\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e4e0adbf8028bada8ee7e69d7dcfd500\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d35c8b3de26ad22de29e872ad263f2fd\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d35c8b3de26ad22de29e872ad263f2fd\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ebfdab53cc52cfb336749b6e182e941d\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ebfdab53cc52cfb336749b6e182e941d\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\87b5eeffe0638ec603e69d9037a8945d\transformed\firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\87b5eeffe0638ec603e69d9037a8945d\transformed\firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\aaf4439d28a2eeff21e1281dc5bdfa42\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:10:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\87b5eeffe0638ec603e69d9037a8945d\transformed\firebase-common-21.0.0\AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\87b5eeffe0638ec603e69d9037a8945d\transformed\firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\aaf4439d28a2eeff21e1281dc5bdfa42\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:9:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar
+ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\aaf4439d28a2eeff21e1281dc5bdfa42\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\aaf4439d28a2eeff21e1281dc5bdfa42\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\aaf4439d28a2eeff21e1281dc5bdfa42\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:12:17-119
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\20f2adfa32db0b781fc26393b4c463ce\transformed\firebase-storage-21.0.1\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\20f2adfa32db0b781fc26393b4c463ce\transformed\firebase-storage-21.0.1\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e4e0adbf8028bada8ee7e69d7dcfd500\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e4e0adbf8028bada8ee7e69d7dcfd500\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:10:5-79
+MERGED from [androidx.media3:media3-common:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\17fc76bbd9be751b11d1605cb884690e\transformed\media3-common-1.5.1\AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-common:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\17fc76bbd9be751b11d1605cb884690e\transformed\media3-common-1.5.1\AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-exoplayer:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f9b5075eec4743fce1a20deecdc27e2b\transformed\media3-exoplayer-1.5.1\AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-exoplayer:1.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\f9b5075eec4743fce1a20deecdc27e2b\transformed\media3-exoplayer-1.5.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\02d01fc53fab95351be2148b8c270155\transformed\recaptcha-18.5.1\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\02d01fc53fab95351be2148b8c270155\transformed\recaptcha-18.5.1\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\52197ff5231a2c532590cba5f0e775e4\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\52197ff5231a2c532590cba5f0e775e4\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\17992c8b2cc9cae65f787eb54b75c8cd\transformed\transport-runtime-3.1.8\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\17992c8b2cc9cae65f787eb54b75c8cd\transformed\transport-runtime-3.1.8\AndroidManifest.xml:22:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\16519beb706a746369bf35017c6a9b3d\transformed\grpc-android-1.62.2\AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\16519beb706a746369bf35017c6a9b3d\transformed\grpc-android-1.62.2\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:26:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c935df557a39b5f3dc154594f0b4f720\transformed\firebase-auth-23.1.0\AndroidManifest.xml:70:17-109
+queries
+ADDED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:12:5-19:15
+intent#action:name:com.android.vending.billing.InAppBillingService.BIND
+ADDED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:13:9-15:18
+action#com.android.vending.billing.InAppBillingService.BIND
+ADDED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:14:13-91
+	android:name
+		ADDED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:14:21-88
+intent#action:name:com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND
+ADDED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:16:9-18:18
+action#com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND
+ADDED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:17:13-116
+	android:name
+		ADDED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:17:21-113
+meta-data#com.google.android.play.billingclient.version
+ADDED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:22:9-24:37
+	android:value
+		ADDED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:24:13-34
+	android:name
+		ADDED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:23:13-73
+activity#com.android.billingclient.api.ProxyBillingActivity
+ADDED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:26:9-30:75
+	android:exported
+		ADDED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:29:13-37
+	android:configChanges
+		ADDED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:28:13-96
+	android:theme
+		ADDED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:30:13-72
+	android:name
+		ADDED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:27:13-78
+activity#com.android.billingclient.api.ProxyBillingActivityV2
+ADDED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:31:9-35:75
+	android:exported
+		ADDED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:34:13-37
+	android:configChanges
+		ADDED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:33:13-96
+	android:theme
+		ADDED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:35:13-72
+	android:name
+		ADDED from [com.android.billingclient:billing:7.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7b9e9ea52f48aeb13c45372231417c1b\transformed\billing-7.1.1\AndroidManifest.xml:32:13-80
+meta-data#com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageLegacyRegistrar
+ADDED from [com.google.firebase:firebase-storage-ktx:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c78c77dcc0dabfada91b5d3037924d8c\transformed\firebase-storage-ktx-21.0.1\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage-ktx:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c78c77dcc0dabfada91b5d3037924d8c\transformed\firebase-storage-ktx-21.0.1\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage-ktx:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c78c77dcc0dabfada91b5d3037924d8c\transformed\firebase-storage-ktx-21.0.1\AndroidManifest.xml:13:17-125
+meta-data#com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar
+ADDED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\20f2adfa32db0b781fc26393b4c463ce\transformed\firebase-storage-21.0.1\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\20f2adfa32db0b781fc26393b4c463ce\transformed\firebase-storage-21.0.1\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\20f2adfa32db0b781fc26393b4c463ce\transformed\firebase-storage-21.0.1\AndroidManifest.xml:31:17-118
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\20f2adfa32db0b781fc26393b4c463ce\transformed\firebase-storage-21.0.1\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\20f2adfa32db0b781fc26393b4c463ce\transformed\firebase-storage-21.0.1\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\20f2adfa32db0b781fc26393b4c463ce\transformed\firebase-storage-21.0.1\AndroidManifest.xml:34:17-107
+meta-data#com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreLegacyRegistrar
+ADDED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\4f5eb03a9c47945737f142e2d5bdc325\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\4f5eb03a9c47945737f142e2d5bdc325\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\4f5eb03a9c47945737f142e2d5bdc325\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:13:17-129
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e4e0adbf8028bada8ee7e69d7dcfd500\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e4e0adbf8028bada8ee7e69d7dcfd500\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e4e0adbf8028bada8ee7e69d7dcfd500\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:18:17-122
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e4e0adbf8028bada8ee7e69d7dcfd500\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e4e0adbf8028bada8ee7e69d7dcfd500\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e4e0adbf8028bada8ee7e69d7dcfd500\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d35c8b3de26ad22de29e872ad263f2fd\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d35c8b3de26ad22de29e872ad263f2fd\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d35c8b3de26ad22de29e872ad263f2fd\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:26:17-120
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d35c8b3de26ad22de29e872ad263f2fd\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d35c8b3de26ad22de29e872ad263f2fd\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\d35c8b3de26ad22de29e872ad263f2fd\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:29:17-117
+service#androidx.credentials.playservices.CredentialProviderMetadataHolder
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\2d52797e6f9f55394f1c9bcbf77bdae6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\2d52797e6f9f55394f1c9bcbf77bdae6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\2d52797e6f9f55394f1c9bcbf77bdae6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\2d52797e6f9f55394f1c9bcbf77bdae6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:28:13-60
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\2d52797e6f9f55394f1c9bcbf77bdae6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
+meta-data#androidx.credentials.CREDENTIAL_PROVIDER_KEY
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\2d52797e6f9f55394f1c9bcbf77bdae6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
+	android:value
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\2d52797e6f9f55394f1c9bcbf77bdae6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\2d52797e6f9f55394f1c9bcbf77bdae6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
+activity#androidx.credentials.playservices.HiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\2d52797e6f9f55394f1c9bcbf77bdae6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\2d52797e6f9f55394f1c9bcbf77bdae6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\2d52797e6f9f55394f1c9bcbf77bdae6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\2d52797e6f9f55394f1c9bcbf77bdae6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\2d52797e6f9f55394f1c9bcbf77bdae6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\2d52797e6f9f55394f1c9bcbf77bdae6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\2d52797e6f9f55394f1c9bcbf77bdae6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\38a0cf3d96b550d95978e2c9f530b888\transformed\play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\38a0cf3d96b550d95978e2c9f530b888\transformed\play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\38a0cf3d96b550d95978e2c9f530b888\transformed\play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\38a0cf3d96b550d95978e2c9f530b888\transformed\play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\38a0cf3d96b550d95978e2c9f530b888\transformed\play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\38a0cf3d96b550d95978e2c9f530b888\transformed\play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\38a0cf3d96b550d95978e2c9f530b888\transformed\play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\38a0cf3d96b550d95978e2c9f530b888\transformed\play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\38a0cf3d96b550d95978e2c9f530b888\transformed\play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\38a0cf3d96b550d95978e2c9f530b888\transformed\play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7c7e563ed9b7fc0f3eef93487331b1d1\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7c7e563ed9b7fc0f3eef93487331b1d1\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7c7e563ed9b7fc0f3eef93487331b1d1\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\7c7e563ed9b7fc0f3eef93487331b1d1\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ebfdab53cc52cfb336749b6e182e941d\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ebfdab53cc52cfb336749b6e182e941d\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ebfdab53cc52cfb336749b6e182e941d\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\87b5eeffe0638ec603e69d9037a8945d\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\87b5eeffe0638ec603e69d9037a8945d\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\87b5eeffe0638ec603e69d9037a8945d\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\87b5eeffe0638ec603e69d9037a8945d\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\87b5eeffe0638ec603e69d9037a8945d\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\87b5eeffe0638ec603e69d9037a8945d\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\87b5eeffe0638ec603e69d9037a8945d\transformed\firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\87b5eeffe0638ec603e69d9037a8945d\transformed\firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\87b5eeffe0638ec603e69d9037a8945d\transformed\firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\25915353846d5807a5ff27c9850559f0\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\25915353846d5807a5ff27c9850559f0\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.6] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\25915353846d5807a5ff27c9850559f0\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c343fb727e77af40dee7eaac6fcc4a69\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\69e5dfc91fb93c159c35ac4704afb2b3\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\69e5dfc91fb93c159c35ac4704afb2b3\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\20236cd48bbe1f1383d80cbabb6bcb73\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\20236cd48bbe1f1383d80cbabb6bcb73\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c343fb727e77af40dee7eaac6fcc4a69\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c343fb727e77af40dee7eaac6fcc4a69\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c343fb727e77af40dee7eaac6fcc4a69\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c343fb727e77af40dee7eaac6fcc4a69\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c343fb727e77af40dee7eaac6fcc4a69\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c343fb727e77af40dee7eaac6fcc4a69\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\c343fb727e77af40dee7eaac6fcc4a69\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\736d46ea5ea18b43ec263774426691fa\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\736d46ea5ea18b43ec263774426691fa\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\736d46ea5ea18b43ec263774426691fa\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+permission#com.xscroll.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\736d46ea5ea18b43ec263774426691fa\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\736d46ea5ea18b43ec263774426691fa\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\736d46ea5ea18b43ec263774426691fa\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\736d46ea5ea18b43ec263774426691fa\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\736d46ea5ea18b43ec263774426691fa\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+uses-permission#com.xscroll.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\736d46ea5ea18b43ec263774426691fa\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\736d46ea5ea18b43ec263774426691fa\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\69e5dfc91fb93c159c35ac4704afb2b3\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\69e5dfc91fb93c159c35ac4704afb2b3\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\69e5dfc91fb93c159c35ac4704afb2b3\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\02d01fc53fab95351be2148b8c270155\transformed\recaptcha-18.5.1\AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\02d01fc53fab95351be2148b8c270155\transformed\recaptcha-18.5.1\AndroidManifest.xml:9:22-95
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e3b3cd32bb97f40aaab09b30de41a87d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e3b3cd32bb97f40aaab09b30de41a87d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\e3b3cd32bb97f40aaab09b30de41a87d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\9738ccc00ddd86e739d7815169fce6a7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\52197ff5231a2c532590cba5f0e775e4\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\17992c8b2cc9cae65f787eb54b75c8cd\transformed\transport-runtime-3.1.8\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\17992c8b2cc9cae65f787eb54b75c8cd\transformed\transport-runtime-3.1.8\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\52197ff5231a2c532590cba5f0e775e4\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\52197ff5231a2c532590cba5f0e775e4\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\52197ff5231a2c532590cba5f0e775e4\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\52197ff5231a2c532590cba5f0e775e4\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\52197ff5231a2c532590cba5f0e775e4\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\17992c8b2cc9cae65f787eb54b75c8cd\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\17992c8b2cc9cae65f787eb54b75c8cd\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\17992c8b2cc9cae65f787eb54b75c8cd\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\17992c8b2cc9cae65f787eb54b75c8cd\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\17992c8b2cc9cae65f787eb54b75c8cd\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\17992c8b2cc9cae65f787eb54b75c8cd\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\17992c8b2cc9cae65f787eb54b75c8cd\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ff581c196301ee338e8b4ac9139454b7\transformed\core-common-2.0.3\AndroidManifest.xml:14:9-18:65
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ff581c196301ee338e8b4ac9139454b7\transformed\core-common-2.0.3\AndroidManifest.xml:17:13-42
+	android:exported
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ff581c196301ee338e8b4ac9139454b7\transformed\core-common-2.0.3\AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ff581c196301ee338e8b4ac9139454b7\transformed\core-common-2.0.3\AndroidManifest.xml:18:13-62
+	android:name
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\PC-AIMPANG\.gradle\caches\8.11.1\transforms\ff581c196301ee338e8b4ac9139454b7\transformed\core-common-2.0.3\AndroidManifest.xml:15:13-93

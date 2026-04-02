@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.xscroll.app-mergeDebugResources-3:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\PC-AIMPANG\\.gradle\\caches\\8.11.1\\transforms\\f63f584b49386eaa3b8b94698b0d55ee\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+FROM qwen3:14b
+
+# Maximize GPU usage on your 16GB RTX 5080
+PARAMETER num_gpu 999
+
+# Good context size for Android projects
+PARAMETER num_ctx 16384
+
+# Optimized for precise Android/Kotlin coding
+PARAMETER temperature 0.3
+PARAMETER top_p 0.95
+PARAMETER top_k 40
+PARAMETER repeat_penalty 1.1
+PARAMETER min_p 0.05
+
+SYSTEM """
+You are an expert senior Android engineer with 10+ years of experience.
+You specialize in modern Kotlin, Jetpack Compose (preferred), Hilt, Room, Navigation Component, ViewModel, Coroutines/Flow, and MVVM/Clean Architecture.
+
+Rules:
+- Always write clean, idiomatic, production-ready code.
+- Prefer Compose with Material 3.
+- Add helpful comments for complex parts.
+- If something is unclear, ask for clarification.
+"""

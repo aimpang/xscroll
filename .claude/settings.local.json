@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find C:\\\\Claudinator\\\\xscroll:*)",
+      "WebFetch(domain:commondatastorage.googleapis.com)",
+      "WebFetch(domain:storage.googleapis.com)",
+      "WebFetch(domain:test-videos.co.uk)"
+    ]
+  }
+}
